@@ -1,0 +1,43 @@
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px auto 0;
+    width: 300px;
+    text-align: center;
+}
+.form .input {
+    background: #FBFBFB;
+    border: 1px solid #D6E4EC;
+    box-sizing: border-box;
+    border-radius: 5.5px;
+    outline: none;
+    border-bottom: 2px solid #7480FF;
+    font-size:16px;
+    color: #343C44;
+    padding: 7px 14px;
+    box-shadow: 2px 9px 12px rgba(117, 131, 142, 0.4);
+    margin-bottom: 20px;
+}
+.form .btn {
+    background: #49C0B8;
+    border-radius: 2.71486px;
+    display: inline;
+    padding: 7px 14px;
+    color: #FBFBFB;
+    text-decoration: none;
+    transition: 0.3; /*Скорость перехода состояния элемента*/
+    animation: show 1s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+
+    opacity: 0;
+}
+@keyframes show{
+    0%{
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+    }
+ 

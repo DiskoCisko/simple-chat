@@ -1,0 +1,54 @@
+.chat {
+    display: flex;
+    width: 100%;
+}
+@media (max-width: 430px) {
+    .chat {
+        flex-direction: column;
+    }
+}
+.chat textarea {
+    resize: none;
+    outline: none;
+    background: #FFFFFF;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 17px;
+    line-height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    border: 1px solid #D6E4EC;
+ }
+ .chat .btn {
+    background: #7480FF;
+    box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+    border-radius: 8px;
+    padding: 10px 48px;
+    color: #FBFBFB;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    display: inline-block;
+    width: 200px;
+    border: none;
+    outline: none;
+    align-self: flex-end;
+    cursor: pointer;
+    margin-bottom: 20px;
+ }
+.btn[disabled] {
+    background: #D0CFCF;
+}
+.chat .wrp {
+    display: flex;
+    flex-direction: column;
+    top: 8%;
+    right: 5%;
+}
+.mes-wrp {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-top: 30px;
+}

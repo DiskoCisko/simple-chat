@@ -1,0 +1,31 @@
+.messege {
+    align-self: flex-end;
+    background: #E1FEC6;
+    border: 0.5px solid #B5CADD;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 17px;
+    line-height: 22px; 
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    opacity:0;
+    animation: show 1s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+}
+.author {
+    text-align: right;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: right;
+    color: #2DA430;
+}
+.other-mes {
+    align-self: flex-start;
+    background: #FFFFFF;
+}
