@@ -1,0 +1,17 @@
+.flex {
+    display: flex;
+}
+.user-list-wrp {
+    width: 20%;
+    margin-right: 50px;
+}
+
+.main {
+    width: 90%;
+}
+
+@media (max-width: 1200px) {
+    .user-list-wrp {
+        width: 200px;
+    }
+}
